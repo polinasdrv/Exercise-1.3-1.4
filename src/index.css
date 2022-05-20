@@ -1,13 +1,56 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: #add8e6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  margin: auto;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 70px;
+}
+
+form input {
+  width: 400px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: aliceblue;
+  font-size: 17px;
+}
+
+.checkbox {
+  display: inline-flex;
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+}
+.checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.checkbox div {
+  padding-top: 10px;
+}
+
+form button {
+  height: 35px;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: aliceblue;
+  color: black;
 }
